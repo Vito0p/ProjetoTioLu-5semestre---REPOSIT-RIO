@@ -1,0 +1,7 @@
+### Teste PUT cliente
+PUT http://127.0.0.1:8000/cliente/1
+Content-Type: application/json
+
+{
+  "nome": "Victor Otavio Pereira"
+}

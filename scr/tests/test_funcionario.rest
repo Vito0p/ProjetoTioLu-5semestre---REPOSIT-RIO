@@ -1,0 +1,10 @@
+### Teste GET todos funcionários
+GET http://127.0.0.1:8000/funcionario/
+
+### Teste POST funcionário
+POST http://127.0.0.1:8000/funcionario/
+Content-Type: application/json
+
+{
+  "nome": "Victor Otavio Pereira"
+}
